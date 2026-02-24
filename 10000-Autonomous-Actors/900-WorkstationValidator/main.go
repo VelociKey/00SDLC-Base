@@ -9,26 +9,26 @@ import (
 	"connectrpc.com/connect"
 
 	// Cluster Clients
-	vaultv1 "OlympusGCP-Vault/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/vault/v1"
-	"OlympusGCP-Vault/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/vault/v1/vaultv1connect"
+	vaultv1 "OlympusGCP-Vault/gen/v1/vault"
+	"OlympusGCP-Vault/gen/v1/vault/vaultv1connect"
 
-	storagev1 "OlympusGCP-Storage/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/storage/v1"
-	"OlympusGCP-Storage/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/storage/v1/storagev1connect"
+	storagev1 "OlympusGCP-Storage/gen/v1/storage"
+	"OlympusGCP-Storage/gen/v1/storage/storagev1connect"
 
-	intv1 "OlympusGCP-Intelligence/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/intelligence/v1"
-	"OlympusGCP-Intelligence/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/intelligence/v1/intelligencev1connect"
+	intv1 "OlympusGCP-Intelligence/gen/v1/intelligence"
+	"OlympusGCP-Intelligence/gen/v1/intelligence/intelligencev1connect"
 
-	finopsv1 "OlympusGCP-FinOps/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/finops/v1"
-	"OlympusGCP-FinOps/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/finops/v1/finopsv1connect"
+	finopsv1 "OlympusGCP-FinOps/gen/v1/finops"
+	"OlympusGCP-FinOps/gen/v1/finops/finopsv1connect"
 
-	computev1 "OlympusGCP-Compute/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/compute/v1"
-	"OlympusGCP-Compute/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/compute/v1/computev1connect"
+	computev1 "OlympusGCP-Compute/gen/v1/compute"
+	"OlympusGCP-Compute/gen/v1/compute/computev1connect"
 
-	datav1 "OlympusGCP-Data/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/data/v1"
-	"OlympusGCP-Data/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/data/v1/datav1connect"
+	datav1 "OlympusGCP-Data/gen/v1/data"
+	"OlympusGCP-Data/gen/v1/data/datav1connect"
 
-	eventsv1 "OlympusGCP-Events/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/events/v1"
-	"OlympusGCP-Events/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/events/v1/eventsv1connect"
+	eventsv1 "OlympusGCP-Events/gen/v1/events"
+	"OlympusGCP-Events/gen/v1/events/eventsv1connect"
 )
 
 func main() {

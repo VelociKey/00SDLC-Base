@@ -10,8 +10,8 @@ import (
 	"connectrpc.com/connect"
 
 	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-forge-context"
-	vaultv1 "OlympusGCP-Vault/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/vault/v1"
-	"OlympusGCP-Vault/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/vault/v1/vaultv1connect"
+	vaultv1 "OlympusGCP-Vault/gen/v1/vault"
+	"OlympusGCP-Vault/gen/v1/vault/vaultv1connect"
 )
 
 func main() {

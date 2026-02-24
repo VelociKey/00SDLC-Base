@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"connectrpc.com/connect"
-	obsv1 "OlympusGCP-Observability/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/observability/v1"
-	observabilityv1connect "OlympusGCP-Observability/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/observability/v1/observabilityv1connect"
+	obsv1 "OlympusGCP-Observability/gen/v1/observability"
+	observabilityv1connect "OlympusGCP-Observability/gen/v1/observability/observabilityv1connect"
 	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-whisper"
 )
 

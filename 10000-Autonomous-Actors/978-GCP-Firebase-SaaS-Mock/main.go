@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"connectrpc.com/connect"
-	firebasev1 "OlympusGCP-Firebase/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/firebase/v1"
-	"OlympusGCP-Firebase/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/firebase/v1/firebasev1connect"
+	firebasev1 "OlympusGCP-Firebase/gen/v1/firebase"
+	"OlympusGCP-Firebase/gen/v1/firebase/firebasev1connect"
 	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-whisper"
 )
 

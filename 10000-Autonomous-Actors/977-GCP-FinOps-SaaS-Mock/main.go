@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"connectrpc.com/connect"
-	finv1 "OlympusGCP-FinOps/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/finops/v1"
-	"OlympusGCP-FinOps/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/finops/v1/finopsv1connect"
+	finv1 "OlympusGCP-FinOps/gen/v1/finops"
+	"OlympusGCP-FinOps/gen/v1/finops/finopsv1connect"
 	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-whisper"
 )
 

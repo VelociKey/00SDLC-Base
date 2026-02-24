@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"connectrpc.com/connect"
-	eventsv1 "OlympusGCP-Events/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/events/v1"
-	"OlympusGCP-Events/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/events/v1/eventsv1connect"
+	eventsv1 "OlympusGCP-Events/gen/v1/events"
+	"OlympusGCP-Events/gen/v1/events/eventsv1connect"
 	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-whisper"
 )
 

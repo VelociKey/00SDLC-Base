@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"connectrpc.com/connect"
-	datav1 "OlympusGCP-Data/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/data/v1"
-	"OlympusGCP-Data/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/data/v1/datav1connect"
+	datav1 "OlympusGCP-Data/gen/v1/data"
+	"OlympusGCP-Data/gen/v1/data/datav1connect"
 	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-whisper"
 )
 
