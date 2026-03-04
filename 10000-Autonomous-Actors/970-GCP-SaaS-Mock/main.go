@@ -10,10 +10,10 @@ import (
 
 	"connectrpc.com/connect"
 
-	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-forge-context"
-	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-whisper"
-	vaultv1 "OlympusGCP-Vault/gen/v1/vault"
-	"OlympusGCP-Vault/gen/v1/vault/vaultv1connect"
+	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/P0900-Labs/130-ForgeContext"
+	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/P0900-Labs/220-Whisper"
+	vaultv1 "olympus.fleet/00SDLC/OlympusGCP-Vault/gen/v1/vault"
+	"olympus.fleet/00SDLC/OlympusGCP-Vault/gen/v1/vault/vaultv1connect"
 )
 
 func main() {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"mcp-go/mcp"
-	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-mcp-bridge"
+	"github.com/mark3labs/mcp-go/mcp"
+	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/P0900-Labs/140-MCPBridge"
 )
 
 func main() {
@@ -26,7 +26,7 @@ func main() {
 		return []mcp.ResourceContents{
 			mcp.TextResourceContents{
 				URI:      "sovereign://saas/config",
-				MIMEType: "text/plain",
+				MIMEType: "olympus.fleet/00SDLC/Olympus2/00000-Identity-Foundations/P0000-pkg/text/plain",
 				Text:     "mode: high-assurance\ncluster: local-workstation\n",
 			},
 		}, nil

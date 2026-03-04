@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"connectrpc.com/connect"
-	firebasev1 "OlympusGCP-Firebase/gen/v1/firebase"
-	"OlympusGCP-Firebase/gen/v1/firebase/firebasev1connect"
-	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-whisper"
+	firebasev1 "olympus.fleet/00SDLC/OlympusGCP-Firebase/gen/v1/firebase"
+	"olympus.fleet/00SDLC/OlympusGCP-Firebase/gen/v1/firebase/firebasev1connect"
+	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/P0900-Labs/220-Whisper"
 )
 
 func main() {

@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"connectrpc.com/connect"
-	finv1 "OlympusGCP-FinOps/gen/v1/finops"
-	"OlympusGCP-FinOps/gen/v1/finops/finopsv1connect"
-	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-whisper"
+	finv1 "olympus.fleet/00SDLC/OlympusGCP-FinOps/gen/v1/finops"
+	"olympus.fleet/00SDLC/OlympusGCP-FinOps/gen/v1/finops/finopsv1connect"
+	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/P0900-Labs/220-Whisper"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 package main
 
 import "context"
-import "dagger/olympusassurance/internal/dagger"
+import "olympus.fleet/00SDLC/OlympusForge/70000-Environmental-Harness/dagger/olympusassurance/internal/dagger"
 
 type OlympusAssurance struct{}
 

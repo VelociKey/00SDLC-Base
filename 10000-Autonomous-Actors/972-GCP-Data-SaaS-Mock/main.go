@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"connectrpc.com/connect"
-	datav1 "OlympusGCP-Data/gen/v1/data"
-	"OlympusGCP-Data/gen/v1/data/datav1connect"
-	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-whisper"
+	datav1 "olympus.fleet/00SDLC/OlympusGCP-Data/gen/v1/data"
+	"olympus.fleet/00SDLC/OlympusGCP-Data/gen/v1/data/datav1connect"
+	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/P0900-Labs/220-Whisper"
 )
 
 func main() {

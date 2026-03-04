@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	vaultv1 "OlympusGCP-Vault/gen/v1/vault"
-	vaultv1connect "OlympusGCP-Vault/gen/v1/vault/vaultv1connect"
-	computev1 "OlympusGCP-Compute/gen/v1/compute"
-	computev1connect "OlympusGCP-Compute/gen/v1/compute/computev1connect"
+	vaultv1 "olympus.fleet/00SDLC/OlympusGCP-Vault/gen/v1/vault"
+	vaultv1connect "olympus.fleet/00SDLC/OlympusGCP-Vault/gen/v1/vault/vaultv1connect"
+	computev1 "olympus.fleet/00SDLC/OlympusGCP-Compute/gen/v1/compute"
+	computev1connect "olympus.fleet/00SDLC/OlympusGCP-Compute/gen/v1/compute/computev1connect"
 	"connectrpc.com/connect"
 )
 

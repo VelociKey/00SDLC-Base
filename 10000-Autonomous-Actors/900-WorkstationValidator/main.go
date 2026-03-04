@@ -9,26 +9,26 @@ import (
 	"connectrpc.com/connect"
 
 	// Cluster Clients
-	vaultv1 "OlympusGCP-Vault/gen/v1/vault"
-	"OlympusGCP-Vault/gen/v1/vault/vaultv1connect"
+	vaultv1 "olympus.fleet/00SDLC/OlympusGCP-Vault/gen/v1/vault"
+	"olympus.fleet/00SDLC/OlympusGCP-Vault/gen/v1/vault/vaultv1connect"
 
-	storagev1 "OlympusGCP-Storage/gen/v1/storage"
-	"OlympusGCP-Storage/gen/v1/storage/storagev1connect"
+	storagev1 "olympus.fleet/00SDLC/OlympusGCP-Storage/gen/v1/storage"
+	"olympus.fleet/00SDLC/OlympusGCP-Storage/gen/v1/storage/storagev1connect"
 
-	intv1 "OlympusGCP-Intelligence/gen/v1/intelligence"
-	"OlympusGCP-Intelligence/gen/v1/intelligence/intelligencev1connect"
+	intv1 "olympus.fleet/00SDLC/OlympusGCP-Intelligence/gen/v1/intelligence"
+	"olympus.fleet/00SDLC/OlympusGCP-Intelligence/gen/v1/intelligence/intelligencev1connect"
 
-	finopsv1 "OlympusGCP-FinOps/gen/v1/finops"
-	"OlympusGCP-FinOps/gen/v1/finops/finopsv1connect"
+	finopsv1 "olympus.fleet/00SDLC/OlympusGCP-FinOps/gen/v1/finops"
+	"olympus.fleet/00SDLC/OlympusGCP-FinOps/gen/v1/finops/finopsv1connect"
 
-	computev1 "OlympusGCP-Compute/gen/v1/compute"
-	"OlympusGCP-Compute/gen/v1/compute/computev1connect"
+	computev1 "olympus.fleet/00SDLC/OlympusGCP-Compute/gen/v1/compute"
+	"olympus.fleet/00SDLC/OlympusGCP-Compute/gen/v1/compute/computev1connect"
 
-	datav1 "OlympusGCP-Data/gen/v1/data"
-	"OlympusGCP-Data/gen/v1/data/datav1connect"
+	datav1 "olympus.fleet/00SDLC/OlympusGCP-Data/gen/v1/data"
+	"olympus.fleet/00SDLC/OlympusGCP-Data/gen/v1/data/datav1connect"
 
-	eventsv1 "OlympusGCP-Events/gen/v1/events"
-	"OlympusGCP-Events/gen/v1/events/eventsv1connect"
+	eventsv1 "olympus.fleet/00SDLC/OlympusGCP-Events/gen/v1/events"
+	"olympus.fleet/00SDLC/OlympusGCP-Events/gen/v1/events/eventsv1connect"
 )
 
 func main() {
@@ -53,7 +53,7 @@ func validateVault(ctx context.Context) {
 	fmt.Print("Checking Vault Cluster... ")
 	client := vaultv1connect.NewVaultServiceClient(http.DefaultClient, "http://localhost:8092")
 	res, err := client.VaultRead(ctx, connect.NewRequest(&vaultv1.VaultReadRequest{
-		Key: "fleet/validation/token",
+		Key: "olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/000-Tools/fleet/validation/token",
 	}))
 	if err != nil {
 		fmt.Printf("❌ FAIL: %v\n", err)

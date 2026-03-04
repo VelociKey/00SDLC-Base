@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"OlympusAssurance/90000-Enablement-Labs/P0000-pkg/000-assurance-client"
+	"olympus.fleet/00SDLC/OlympusAssurance/90000-Enablement-Labs/P0000-pkg/000-assurance-client"
 )
 
 func main() {

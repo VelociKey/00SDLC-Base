@@ -65,7 +65,7 @@ func (c *BridgeClient) CallTool(ctx context.Context, toolName string, args map[s
 	var resp struct {
 		Result struct {
 			Content []struct {
-				Text string `json:"Olympus2/00000-Identity-Foundations/P0000-pkg/text"`
+				Text string `json:"olympus.fleet/00SDLC/Olympus2/00000-Identity-Foundations/P0000-pkg/text"`
 			} `json:"content"`
 			IsError bool `json:"isError"`
 		} `json:"result"`

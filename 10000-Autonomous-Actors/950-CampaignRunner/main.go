@@ -69,7 +69,7 @@ func main() {
 		managerCmd.Dir = filepath.Dir(managerBin)
 	}
 
-	logPath := filepath.Join(root, "Olympus2/C0500-Agent-Intelligence-Outputs/LPSV", strings.ToLower(campaignName)+".log")
+	logPath := filepath.Join(root, "olympus.fleet/00SDLC/Olympus2/C0500-Agent-Intelligence-Outputs/LPSV", strings.ToLower(campaignName)+".log")
 	logFile, _ := os.Create(logPath)
 	defer logFile.Close()
 	managerCmd.Stdout = logFile

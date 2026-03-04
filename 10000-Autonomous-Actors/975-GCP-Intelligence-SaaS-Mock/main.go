@@ -10,15 +10,15 @@ import (
 	"connectrpc.com/connect"
 	"go.opentelemetry.io/otel"
 
-	intelligencev1 "OlympusGCP-Intelligence/gen/v1/intelligence"
-	"OlympusGCP-Intelligence/gen/v1/intelligence/intelligencev1connect"
-	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-whisper"
-	econotel "Olympus2/90000-Enablement-Labs/P0000-pkg/000-econotel"
+	intelligencev1 "olympus.fleet/00SDLC/OlympusGCP-Intelligence/gen/v1/intelligence"
+	"olympus.fleet/00SDLC/OlympusGCP-Intelligence/gen/v1/intelligence/intelligencev1connect"
+	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/P0900-Labs/220-Whisper"
+	econotel "olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/P0900-Labs/120-Econotel"
 )
 
 func main() {
 	// Centralized OTel Output (SaaS Side)
-	otelFile, _ := os.Create("C:/aAntigravitySpace/Olympus2/C0500-Agent-Intelligence-Outputs/LPSV/gcp_saas_mock_otel.json")
+	otelFile, _ := os.Create("C:/aAntigravitySpace/olympus.fleet/00SDLC/Olympus2/C0500-Agent-Intelligence-Outputs/LPSV/gcp_saas_mock_otel.json")
 	tp, _ := econotel.InitTracer("SaaS-Intelligence-Mock", otelFile)
 	defer tp.Shutdown(context.Background())
 
