@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"connectrpc.com/connect"
-	eventsv1 "olympus.fleet/00SDLC/OlympusGCP-Events/gen/v1/events"
-	"olympus.fleet/00SDLC/OlympusGCP-Events/gen/v1/events/eventsv1connect"
-	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/P0900-Labs/220-Whisper"
+	eventsv1 "olympus.fleet/00SDLC/OlympusGCP-Events/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/events"
+	"olympus.fleet/00SDLC/OlympusGCP-Events/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/events/eventsv1connect"
+	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/90200-Logic-Libraries/220-Whisper"
 )
 
 func main() {

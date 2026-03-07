@@ -9,9 +9,9 @@ import (
 
 	"connectrpc.com/connect"
 
-	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/P0900-Labs/130-ForgeContext"
-	vaultv1 "olympus.fleet/00SDLC/OlympusGCP-Vault/gen/v1/vault"
-	"olympus.fleet/00SDLC/OlympusGCP-Vault/gen/v1/vault/vaultv1connect"
+	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/90200-Logic-Libraries/130-ForgeContext"
+	vaultv1 "olympus.fleet/00SDLC/OlympusGCP-Vault/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault"
+	"olympus.fleet/00SDLC/OlympusGCP-Vault/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault/vaultv1connect"
 )
 
 func main() {
