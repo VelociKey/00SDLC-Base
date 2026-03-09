@@ -26,50 +26,6 @@ require (
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel/metric v1.40.0 // indirect
 	go.opentelemetry.io/otel/trace v1.40.0 // indirect
-	golang.org/x/net v0.51.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-replace connectrpc.com/connect => ../OlympusForge/81000-Toolchain-External/81200-Logic-Libraries/connectrpc/connect-go-1.18.1
-
-replace github.com/mark3labs/mcp-go => ../OlympusForge/81000-Toolchain-External/81200-Logic-Libraries/mcp/mcp-go-0.44.1
