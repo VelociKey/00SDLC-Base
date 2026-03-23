@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"connectrpc.com/connect"
-	datav1 "olympus.fleet/00SDLC/OlympusGCP-Data/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data"
-	"olympus.fleet/00SDLC/OlympusGCP-Data/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data/datav1connect"
+	datav1 "olympus.fleet/00SDLC/OlympusGCP-Data/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data"
+	"olympus.fleet/00SDLC/OlympusGCP-Data/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data/datav1connect"
 	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/90200-Logic-Libraries/220-Whisper"
 )
 

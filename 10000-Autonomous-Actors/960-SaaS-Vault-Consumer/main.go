@@ -16,7 +16,7 @@ func main() {
 	
 	cwd, _ := os.Getwd()
 	// Target the Vault Bridge
-	bridgePath := filepath.Join(cwd, "../../../OlympusGCP-Vault/20000-Context-Bridges/900-VaultBridge/VaultBridge.exe")
+	bridgePath := filepath.Join(cwd, "../../../OlympusGCP-Vault/30000-Context-Bridges/900-VaultBridge/VaultBridge.exe")
 
 	client, err := assurance.NewBridgeClient(bridgePath)
 	if err != nil {

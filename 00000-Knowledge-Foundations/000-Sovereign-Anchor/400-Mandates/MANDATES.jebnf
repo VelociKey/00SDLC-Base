@@ -1,0 +1,8 @@
+::Sovereign::Fabric::Mandates::v1
+Workspace "00SDLC-Base"
+Owner "Any"
+
+Mandates [
+    "Strict hierarchical taxonomy (nnnnn -> nnn -> nnn)"
+    "jeBNF-native configuration and metadata"
+]

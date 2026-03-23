@@ -9,26 +9,26 @@ import (
 	"connectrpc.com/connect"
 
 	// Cluster Clients
-	vaultv1 "olympus.fleet/00SDLC/OlympusGCP-Vault/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault"
-	"olympus.fleet/00SDLC/OlympusGCP-Vault/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault/vaultv1connect"
+	vaultv1 "olympus.fleet/00SDLC/OlympusGCP-Vault/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault"
+	"olympus.fleet/00SDLC/OlympusGCP-Vault/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault/vaultv1connect"
 
-	storagev1 "olympus.fleet/00SDLC/OlympusGCP-Storage/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/storage"
-	"olympus.fleet/00SDLC/OlympusGCP-Storage/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/storage/storagev1connect"
+	storagev1 "olympus.fleet/00SDLC/OlympusGCP-Storage/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/storage"
+	"olympus.fleet/00SDLC/OlympusGCP-Storage/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/storage/storagev1connect"
 
-	intv1 "olympus.fleet/00SDLC/OlympusGCP-Intelligence/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/intelligence"
-	"olympus.fleet/00SDLC/OlympusGCP-Intelligence/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/intelligence/intelligencev1connect"
+	intv1 "olympus.fleet/00SDLC/OlympusGCP-Intelligence/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/intelligence"
+	"olympus.fleet/00SDLC/OlympusGCP-Intelligence/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/intelligence/intelligencev1connect"
 
-	finopsv1 "olympus.fleet/00SDLC/OlympusGCP-FinOps/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/finops"
-	"olympus.fleet/00SDLC/OlympusGCP-FinOps/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/finops/finopsv1connect"
+	finopsv1 "olympus.fleet/00SDLC/OlympusGCP-FinOps/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/finops"
+	"olympus.fleet/00SDLC/OlympusGCP-FinOps/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/finops/finopsv1connect"
 
-	computev1 "olympus.fleet/00SDLC/OlympusGCP-Compute/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/compute"
-	"olympus.fleet/00SDLC/OlympusGCP-Compute/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/compute/computev1connect"
+	computev1 "olympus.fleet/00SDLC/OlympusGCP-Compute/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/compute"
+	"olympus.fleet/00SDLC/OlympusGCP-Compute/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/compute/computev1connect"
 
-	datav1 "olympus.fleet/00SDLC/OlympusGCP-Data/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data"
-	"olympus.fleet/00SDLC/OlympusGCP-Data/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data/datav1connect"
+	datav1 "olympus.fleet/00SDLC/OlympusGCP-Data/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data"
+	"olympus.fleet/00SDLC/OlympusGCP-Data/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data/datav1connect"
 
-	eventsv1 "olympus.fleet/00SDLC/OlympusGCP-Events/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/events"
-	"olympus.fleet/00SDLC/OlympusGCP-Events/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/events/eventsv1connect"
+	eventsv1 "olympus.fleet/00SDLC/OlympusGCP-Events/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/events"
+	"olympus.fleet/00SDLC/OlympusGCP-Events/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/events/eventsv1connect"
 )
 
 func main() {

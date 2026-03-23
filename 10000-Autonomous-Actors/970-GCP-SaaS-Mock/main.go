@@ -12,8 +12,8 @@ import (
 
 	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/90200-Logic-Libraries/130-ForgeContext"
 	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/90200-Logic-Libraries/220-Whisper"
-	vaultv1 "olympus.fleet/00SDLC/OlympusGCP-Vault/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault"
-	"olympus.fleet/00SDLC/OlympusGCP-Vault/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault/vaultv1connect"
+	vaultv1 "olympus.fleet/00SDLC/OlympusGCP-Vault/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault"
+	"olympus.fleet/00SDLC/OlympusGCP-Vault/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault/vaultv1connect"
 )
 
 func main() {

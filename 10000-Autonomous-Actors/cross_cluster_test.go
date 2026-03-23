@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	vaultv1 "olympus.fleet/00SDLC/OlympusGCP-Vault/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault"
-	vaultv1connect "olympus.fleet/00SDLC/OlympusGCP-Vault/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault/vaultv1connect"
-	computev1 "olympus.fleet/00SDLC/OlympusGCP-Compute/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/compute"
-	computev1connect "olympus.fleet/00SDLC/OlympusGCP-Compute/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/compute/computev1connect"
+	vaultv1 "olympus.fleet/00SDLC/OlympusGCP-Vault/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault"
+	vaultv1connect "olympus.fleet/00SDLC/OlympusGCP-Vault/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/vault/vaultv1connect"
+	computev1 "olympus.fleet/00SDLC/OlympusGCP-Compute/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/compute"
+	computev1connect "olympus.fleet/00SDLC/OlympusGCP-Compute/50000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/compute/computev1connect"
 	"connectrpc.com/connect"
 )
 
