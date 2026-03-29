@@ -1,0 +1,18 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
+
+go_library(
+    name = "950-SovereignSaaS_lib",
+    srcs = ["main.go"],
+    importpath = "olympus.fleet/00SDLC/00SDLC-Base/10000-Autonomous-Actors/950-SovereignSaaS",
+    visibility = ["//visibility:private"],
+    deps = [
+        "//00SDLC/Olympus2/90000-Enablement-Labs/90200-Logic-Libraries/140-MCPBridge",
+        "@com_github_mark3labs_mcp_go//mcp:go_default_library",
+    ],
+)
+
+go_binary(
+    name = "950-SovereignSaaS",
+    embed = [":950-SovereignSaaS_lib"],
+    visibility = ["//visibility:public"],
+)

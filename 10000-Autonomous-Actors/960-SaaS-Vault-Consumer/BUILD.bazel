@@ -1,0 +1,14 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
+
+go_library(
+    name = "960-SaaS-Vault-Consumer_lib",
+    srcs = ["main.go"],
+    importpath = "olympus.fleet/00SDLC/00SDLC-Base/10000-Autonomous-Actors/960-SaaS-Vault-Consumer",
+    visibility = ["//visibility:private"],
+)
+
+go_binary(
+    name = "960-SaaS-Vault-Consumer",
+    embed = [":960-SaaS-Vault-Consumer_lib"],
+    visibility = ["//visibility:public"],
+)

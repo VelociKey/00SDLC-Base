@@ -1,0 +1,14 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
+
+go_library(
+    name = "950-CampaignRunner_lib",
+    srcs = ["main.go"],
+    importpath = "olympus.fleet/00SDLC/00SDLC-Base/10000-Autonomous-Actors/950-CampaignRunner",
+    visibility = ["//visibility:private"],
+)
+
+go_binary(
+    name = "950-CampaignRunner",
+    embed = [":950-CampaignRunner_lib"],
+    visibility = ["//visibility:public"],
+)
