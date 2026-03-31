@@ -5,7 +5,7 @@ go_library(
     srcs = ["main.go"],
     importpath = "olympus.fleet/00SDLC/00SDLC-Base/10000-Autonomous-Actors/900-WorkstationValidator",
     visibility = ["//visibility:private"],
-    deps = ["@com_connectrpc_connect//:go_default_library"],
+    deps = ["@com_connectrpc_connect//:connect"],
 )
 
 go_binary(

@@ -3,5 +3,5 @@ load("@io_bazel_rules_go//go:def.bzl", "go_test")
 go_test(
     name = "10000-Autonomous-Actors_test",
     srcs = ["cross_cluster_test.go"],
-    deps = ["@com_connectrpc_connect//:go_default_library"],
+    deps = ["@com_connectrpc_connect//:connect"],
 )
